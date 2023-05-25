@@ -1,9 +1,7 @@
 // Write your code here!
-const mainElement = document.querySelector('main#main');
-mainElement.remove();
-const newHeader = document.createElement("h1");
-newHeader.id = "victory";
-newHeader.textContent = "Sebastian is the champion";
+const main = document.getElementById("main");
+console.log(main)
+main.remove()
 
 
 
